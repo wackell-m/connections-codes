@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: monospace;
+  color: green;
+  overflow: hidden;
+}
+
+.screen {
+  text-align: center;
+}
+
+#message {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px green, 0 0 10px green;
+}
+
+#codeInput {
+  background: black;
+  border: 2px solid green;
+  color: green;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px;
+  width: 200px;
+  outline: none;
+  box-shadow: 0 0 5px green;
+}
+
+#codeInput::placeholder {
+  color: green;
+  opacity: 0.5;
+}
